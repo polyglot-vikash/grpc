@@ -5,7 +5,7 @@ Demo project demonstrates client server communication using GRPC and protocol bu
 Steps to run:
 1. Import grpc-client and grpc-server applications separately.
 2. Add a cert.pm and key.pm (certificates file) under resources folder in both the projects. https://stackoverflow.com/questions/10175812/how-to-create-a-self-signed-certificate-with-openssl
-3. Pass any value between 1 to 4 in client application, based on that it invokes different apis.
+3. Pass any value between 1 to 4 as command line arg in client application, based on that it invokes different apis.
 
 To compile message definition in client side (proto file) use below command (change similarly for server app)
 ```
