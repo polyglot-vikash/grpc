@@ -1,3 +1,5 @@
+// Note: If we want to auto generate corresponding java code for a proto file then it should be stored in /src/main/proto location.
+// You might will find anoter proto file in the repo, please ignore that. That was used initially to generate the source file manually.
 syntax = "proto3";
 
 option go_package = "grpcdemo/pb";
