@@ -13,6 +13,7 @@ message Employee {
   float vacationAccrued = 6;
 }
 
+// GetAll ideally does not need any arguments, however in GRPC we must need to have atleast one argument to the method, hence definiing an empty object for argument.
 message GetAllRequest {}
 
 message GetByBadgeNumberRequest {
